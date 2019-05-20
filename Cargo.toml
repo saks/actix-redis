@@ -37,7 +37,7 @@ futures = "0.1.25"
 tokio-io = "0.1"
 tokio-codec = "0.1"
 tokio-tcp = "0.1"
-redis-async = "0.4"
+redis-async = { git = "https://github.com/benashford/redis-async-rs" }
 time = "0.1"
 
 # actix web session
